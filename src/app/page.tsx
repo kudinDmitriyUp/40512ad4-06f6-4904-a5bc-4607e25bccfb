@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -204,7 +204,6 @@ export default function LandingPage() {
           tagIcon={Users}
           textboxLayout="default"
           animationType="slide-up"
-          gridVariant="four-items-2x2-equal-grid"
           members={[
             {
               id: "1",
